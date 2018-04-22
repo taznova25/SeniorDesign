@@ -1,0 +1,76 @@
+.Social_icon{
+    width:100%;
+    Height: 33 px;
+    background-color: #2a2b2c;
+    float: left;
+}
+.icon{
+    width:50px;
+    height:150px;
+    padding-top:3 px;
+    float: left;
+}
+.login_register_btn{
+    width:150 px;
+    Height: 33px;
+    float: left;
+}
+.header_right{
+    width:300px;
+    height:auto;
+    float:right;
+}
+.login_register_btn a{
+    display: block;
+    float: left;
+    color: #fcc508;
+    text-decoration: none;
+    line-height: 33 px;
+    padding-right: 5 px;
+    width: 50 px;    
+}
+.cart_btn{
+    width: 100 px;
+    height:50 px;
+    background-color: #fcc508;
+    float: right;
+    border-bottom-left-radius: 5 px;
+    border-bottom-right-radius: 5 px;
+}
+.cart_btn image{
+    padding: 6 px 4px;
+    float: left;
+}
+.cart_btn span{
+    height:50 px;
+    line-height: 50 px;
+    color: #cc333c;
+    font-size: 14 px;
+    font-weight: bold;
+}
+.header{
+    width:100%;
+    height:100 px;
+    float: left;
+    padding-top: 10 px;
+    padding-bottom: 10 px;
+}
+.logo{
+    width: 800 px;
+    margin: auto;
+    float: left;
+}
+.navbar{
+    width: 800 px;
+    float: left;
+    text-align: right;
+    padding-top: 23 px;
+    padding-bottom: 20 px;
+}
+.navbar a{
+    display: inline-block;
+    color:black;
+    padding: 10 px;
+    text-decoration: none;
+    font-weight: bold;
+}
