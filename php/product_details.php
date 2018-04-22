@@ -92,7 +92,7 @@ $imagePP = 'http://localhost:8080/senior_design_project/'.$imagePP.'.png';
             </div>
         </header>
         
-        <input type="hidden" id="per_product_fix_price_from_db" value="<?php echo $price;?>">
+        <input name="db_prd_fix_price" type="hidden" id="per_product_fix_price_from_db" value="<?php echo $price;?>">
         
         <section aria-label="Main content" role="main" class="product-detail">
             <div itemscope itemtype="http://schema.org/Product">

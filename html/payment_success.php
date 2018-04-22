@@ -135,7 +135,7 @@ function println($input)
               <h4 class="alert-heading">Payment Successful</h4>
               <p>Thank you for Shopping with us.</p>
               <hr>
-              <p class="mb-0">Please view your <a href="..\html\order_history.php">Order History</a> to make any changes to your order.</p>
+              <p class="mb-0">Please view your <a href="..\html\order_history.php">Order History</a> to learn about how you can make changes to your order.</p>
             </div>
             <!--  <h5><a href="..\html\order_history.php">View Order History</a></h5>-->	
 	</div>

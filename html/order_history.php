@@ -136,6 +136,8 @@ while ($row = mysqli_fetch_assoc($result)) {
         <p>Please email taznova25@gmail.com to cancel or request for a refund.</p>
         <p>If the item is shipped, please return the package to the following address and your refund will be processed.</p>
         <p>You will need to include the Order ID and the Transaction ID in your email.</p>
+        <p>You have 30 days to return the item after you have received it.</p>
+        
         <hr>
         <p class="mb-0">Ship To: Taz Silvia <br>Address: 2101 E Coliseum Blvd, Fort Wayne, IN 46805</p>
         </div>		

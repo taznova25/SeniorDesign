@@ -89,6 +89,7 @@ $index = 0;
 				<th scope="col">Action</th>				
 				<th scope="col">Date</th>
 				<th scope="col">User Name</th>
+				<th scope="col">User Email</th>
 				<th scope="col">Product Title</th>
 				<th scope="col">Order ID</th>
 				<th scope="col">Transaction ID</th>
@@ -110,6 +111,7 @@ while ($row = mysqli_fetch_assoc($result_not_shipped)) {
     echo '<td><button id="just_shipped' . $index . '" class="btn btn-link" type="button" value=' . $row['order_id'] . '>Done Shipping</td>';
     echo '<th scope="row">'.$row['date'].'</th>';
     echo '<td scope="row">'.$row['user_name'].'</th>';
+    echo '<td scope="row">'.$row['user_email'].'</th>';
     echo '<td scope="row" id="product">' . $row['product'] . '</td>';
     echo '<td scope="row" id="order_id">' . $row['order_id'] . '</td>';
     echo '<td scope="row" id="tran_id">' . $row['tran_id'] . '</td>';
@@ -128,7 +130,7 @@ while ($row = mysqli_fetch_assoc($result_not_shipped)) {
 ?>
 	<tr>
 		<th scope="row">Grand Total</th>
-		<td colspan="10"></td>
+		<td colspan="11"></td>
 		<td><?php echo '$'.number_format($sum,2)?></td>
 	</tr>
 	</tbody>
@@ -141,6 +143,7 @@ while ($row = mysqli_fetch_assoc($result_not_shipped)) {
 				<th scope="col"># Shipped</th>				
 				<th scope="col">Date</th>
 				<th scope="col">User Name</th>
+				<th scope="col">User Email</th>
 				<th scope="col">Product Title</th>
 				<th scope="col">Order ID</th>
 				<th scope="col">Transaction ID</th>
@@ -161,6 +164,7 @@ while ($row = mysqli_fetch_assoc($result_shipped)) {
     echo '<th scope="row">' . $index . '</th>';
     echo '<th scope="row">'.$row['date'].'</th>';
     echo '<td scope="row">'.$row['user_name'].'</th>';
+    echo '<td scope="row">'.$row['user_email'].'</th>';
     echo '<td scope="row" id="product2">' . $row['product'] . '</td>';
     echo '<td scope="row" id="order_id2">' . $row['order_id'] . '</td>';
     echo '<td scope="row" id="tran_id2">' . $row['tran_id'] . '</td>';
@@ -179,7 +183,7 @@ while ($row = mysqli_fetch_assoc($result_shipped)) {
 ?>
 	<tr>
 		<th scope="row">Grand Total</th>
-		<td colspan="9"></td>
+		<td colspan="10"></td>
 		<td><?php echo '$'.number_format($sum,2)?></td>
 	</tr>
 	</tbody>
